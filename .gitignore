@@ -1,0 +1,7 @@
+# ONNX 大文件不提交到 Git
+*.onnx
+*.data
+
+# Python 缓存
+__pycache__/
+*.pyc
