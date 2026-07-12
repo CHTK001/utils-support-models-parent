@@ -1,6 +1,9 @@
 # Maven 构建输出
 target/
 
+# ModelScope 缓存
+.mscache/
+
 # 大文件 ONNX 不提交到 Git（但打包进 jar）
 *.onnx
 *.data
