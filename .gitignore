@@ -1,7 +1,11 @@
 # ONNX 大文件不提交到 Git
 *.onnx
 *.data
+*.metadata
 
 # Python 缓存
 __pycache__/
 *.pyc
+
+# huggingface_hub 缓存
+CACHEDIR.TAG
