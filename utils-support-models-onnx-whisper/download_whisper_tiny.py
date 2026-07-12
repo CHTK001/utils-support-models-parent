@@ -16,8 +16,6 @@ FILES = [
     "onnx/encoder_model_quantized.onnx",
     "onnx/decoder_model_merged_quantized.onnx",
     "vocab.json",
-    "mel_80_filters.json",
-    "byte_decoder.json",
     "config.json",
     "tokenizer_config.json",
 ]
