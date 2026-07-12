@@ -15,6 +15,7 @@
         <module>utils-support-models-onnx-paddleocrv6-medium</module>
         <module>utils-support-models-onnx-retinaface</module>
         <module>utils-support-models-onnx-yolov5-plate</module>
+        <module>utils-support-models-onnx-card-correction</module>
     </modules>
 
     <distributionManagement>
