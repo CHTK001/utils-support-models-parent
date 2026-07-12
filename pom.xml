@@ -21,6 +21,7 @@
         <module>utils-support-models-onnx-midas</module>
         <module>utils-support-models-onnx-arcface</module>
         <module>utils-support-models-onnx-u2net</module>
+        <module>utils-support-models-onnx-piper-tts-zh</module>
     </modules>
 
     <distributionManagement>
