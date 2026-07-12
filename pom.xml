@@ -16,6 +16,11 @@
         <module>utils-support-models-onnx-retinaface</module>
         <module>utils-support-models-onnx-yolov5-plate</module>
         <module>utils-support-models-onnx-card-correction</module>
+        <module>utils-support-models-onnx-yolov8n</module>
+        <module>utils-support-models-onnx-efficientnet</module>
+        <module>utils-support-models-onnx-midas</module>
+        <module>utils-support-models-onnx-arcface</module>
+        <module>utils-support-models-onnx-u2net</module>
     </modules>
 
     <distributionManagement>
