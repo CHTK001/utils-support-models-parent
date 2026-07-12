@@ -11,7 +11,8 @@
 
     <modules>
         <module>utils-support-models-onnx-whisper</module>
-        <module>utils-support-models-onnx-paddleocrv6</module>
+        <module>utils-support-models-onnx-paddleocrv6-tiny</module>
+        <module>utils-support-models-onnx-paddleocrv6-medium</module>
     </modules>
 
     <distributionManagement>

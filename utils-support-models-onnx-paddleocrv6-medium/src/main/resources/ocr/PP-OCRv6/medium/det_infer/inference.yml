@@ -1,5 +1,5 @@
 Global:
-  model_name: PP-OCRv6_small_det
+  model_name: PP-OCRv6_medium_det
 Hpi:
   backend_configs:
     paddle_infer:

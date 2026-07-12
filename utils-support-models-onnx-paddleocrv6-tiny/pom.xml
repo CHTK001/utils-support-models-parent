@@ -8,9 +8,9 @@
         <artifactId>utils-support-models-parent</artifactId>
         <version>4.0.0.41</version>
     </parent>
-    <artifactId>utils-support-models-onnx-paddleocrv6</artifactId>
+    <artifactId>utils-support-models-onnx-paddleocrv6-tiny</artifactId>
     <packaging>jar</packaging>
-    <description>PP-OCRv6 轻量 OCR 模型（检测 + 识别），包含 ONNX 模型文件和字符集</description>
+    <description>PP-OCRv6 Tiny OCR 模型（检测 + 识别，~7MB），包含 ONNX 模型文件和字符集</description>
 
     <build>
         <plugins>
