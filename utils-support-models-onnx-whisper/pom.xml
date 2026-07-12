@@ -11,4 +11,30 @@
     <artifactId>utils-support-models-onnx-whisper</artifactId>
     <packaging>jar</packaging>
     <description>轻量 Whisper ASR ONNX 模型（Xenova/whisper-tiny），包含 BPE 词表、mel 滤波器等资源配置</description>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>exec-maven-plugin</artifactId>
+                <version>3.5.0</version>
+                <executions>
+                    <execution>
+                        <id>download-model</id>
+                        <phase>generate-resources</phase>
+                        <goals>
+                            <goal>exec</goal>
+                        </goals>
+                        <configuration>
+                            <executable>python</executable>
+                            <arguments>
+                                <argument>${project.basedir}/download_whisper_tiny.py</argument>
+                            </arguments>
+                            <skip>${skipModelDownload}</skip>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
 </project>
