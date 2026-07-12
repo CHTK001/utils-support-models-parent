@@ -13,6 +13,7 @@
         <module>utils-support-models-onnx-whisper</module>
         <module>utils-support-models-onnx-paddleocrv6-tiny</module>
         <module>utils-support-models-onnx-paddleocrv6-medium</module>
+        <module>utils-support-models-onnx-retinaface</module>
     </modules>
 
     <distributionManagement>
