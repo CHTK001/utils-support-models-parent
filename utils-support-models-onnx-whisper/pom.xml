@@ -11,13 +11,4 @@
     <artifactId>utils-support-models-onnx-whisper</artifactId>
     <packaging>jar</packaging>
     <description>轻量 Whisper ASR ONNX 模型（Xenova/whisper-tiny），包含 BPE 词表、mel 滤波器等资源配置</description>
-
-    <dependencies>
-        <dependency>
-            <groupId>com.chua</groupId>
-            <artifactId>utils-support-deeplearning-starter</artifactId>
-            <version>${project.version}</version>
-            <scope>provided</scope>
-        </dependency>
-    </dependencies>
 </project>
