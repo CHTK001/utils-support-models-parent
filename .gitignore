@@ -1,3 +1,6 @@
+# Maven 构建输出
+target/
+
 # Python 缓存
 __pycache__/
 *.pyc
