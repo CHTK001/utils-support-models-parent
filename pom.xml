@@ -22,6 +22,10 @@
         <module>utils-support-models-onnx-arcface</module>
         <module>utils-support-models-onnx-u2net</module>
         <module>utils-support-models-onnx-piper-tts-zh</module>
+        <module>utils-support-models-onnx-yolo11n-pose</module>
+        <module>utils-support-models-onnx-yolo11n-seg</module>
+        <module>utils-support-models-onnx-minilm</module>
+        <module>utils-support-models-onnx-fer</module>
     </modules>
 
     <distributionManagement>
