@@ -26,6 +26,7 @@
         <module>utils-support-models-onnx-yolo11n-seg</module>
         <module>utils-support-models-onnx-minilm</module>
         <module>utils-support-models-onnx-fer</module>
+        <module>utils-support-models-onnx-minimind</module>
     </modules>
 
     <distributionManagement>
