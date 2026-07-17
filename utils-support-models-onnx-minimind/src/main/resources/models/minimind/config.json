@@ -1,0 +1,24 @@
+{
+  "_name_or_path": "minimind-omni",
+  "architectures": [
+    "MiniMindForConditionalGeneration"
+  ],
+  "model_type": "minimind",
+  "vocab_size": 2112,
+  "hidden_size": 1024,
+  "num_hidden_layers": 24,
+  "num_attention_heads": 16,
+  "intermediate_size": 2816,
+  "max_position_embeddings": 2049,
+  "bos_token_id": 1,
+  "eos_token_id": 2,
+  "pad_token_id": 0,
+  "unk_token_id": 0,
+  "audio_pad_token_id": 2049,
+  "text_finished_first": 201,
+  "text_finished_next": 0,
+  "sample_rate": 24000,
+  "tie_word_embeddings": true,
+  "torch_dtype": "float16",
+  "transformers_version": "4.47.0"
+}
