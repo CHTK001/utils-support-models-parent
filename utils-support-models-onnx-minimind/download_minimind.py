@@ -19,10 +19,16 @@ RESOURCE_DIR = os.path.join(MODELS_PARENT, "src", "main", "resources", "models",
 
 # 模型文件列表和下载地址（替换为实际的模型存储地址）
 MODEL_FILES = {
+    # 分词器配置
     "tokenizer.json": "https://huggingface.co/YanTianlong-01/MiniMind-Omni/resolve/main/tokenizer.json",
     "tokenizer_config.json": "https://huggingface.co/YanTianlong-01/MiniMind-Omni/resolve/main/tokenizer_config.json",
+    # 核心推理模型
     "minimind_omni_prefill.onnx": "https://huggingface.co/YanTianlong-01/MiniMind-Omni/resolve/main/onnx/minimind_omni_prefill.onnx",
     "minimind_omni_decode.onnx": "https://huggingface.co/YanTianlong-01/MiniMind-Omni/resolve/main/onnx/minimind_omni_decode.onnx",
+    # 语音处理模型
+    "audio_projector.onnx": "https://huggingface.co/YanTianlong-01/MiniMind-Omni/resolve/main/onnx/audio_projector.onnx",
+    "silero_vad.onnx": "https://huggingface.co/YanTianlong-01/MiniMind-Omni/resolve/main/onnx/silero_vad.onnx",
+    "sensevoice_cmvn.json": "https://huggingface.co/YanTianlong-01/MiniMind-Omni/resolve/main/sensevoice_cmvn.json",
 }
 
 
