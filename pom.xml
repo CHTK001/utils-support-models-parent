@@ -11,5 +11,6 @@
     <description>预置模型资源模块</description>
     <modules>
         <module>utils-support-qwen2.5-0.4b-gguf</module>
+        <module>utils-support-opencv-cascades</module>
     </modules>
 </project>
