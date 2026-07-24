@@ -6,7 +6,7 @@
     <parent>
         <groupId>com.chua</groupId>
         <artifactId>utils-support-models-parent</artifactId>
-        <version>1.0.0</version>
+        <version>1.0.1</version>
     </parent>
     <artifactId>utils-support-qwen2.5-0.4b-gguf</artifactId>
     <name>Qwen2.5-0.4B GGUF Model</name>

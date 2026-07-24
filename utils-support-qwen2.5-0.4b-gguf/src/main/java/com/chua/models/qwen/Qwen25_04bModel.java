@@ -43,7 +43,7 @@ public class Qwen25_04bModel {
                 return Json.fromJson(json, Qwen25_04bModel.class);
             }
         } catch (Exception e) {
-            // 静默
+            // 忽略，使用默认模型
         }
         Qwen25_04bModel model = new Qwen25_04bModel();
         model.setId("Qwen2.5-0.4B-Instruct-GGUF");

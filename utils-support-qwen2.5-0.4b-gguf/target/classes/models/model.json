@@ -1,0 +1,16 @@
+{
+  "id": "Qwen2.5-0.4B-Instruct-GGUF",
+  "name": "Qwen 2.5 0.4B Instruct",
+  "family": "qwen",
+  "version": "2.5",
+  "size": "0.4B",
+  "format": "GGUF",
+  "quantization": "Q4_K_M",
+  "license": "Apache-2.0",
+  "source": "https://huggingface.co/Qwen/Qwen2.5-0.4B-Instruct-GGUF",
+  "files": {
+    "model": "qwen2.5-0.4b-instruct-q4_k_m.gguf"
+  },
+  "contextLength": 8192,
+  "embeddingLength": 896
+}
