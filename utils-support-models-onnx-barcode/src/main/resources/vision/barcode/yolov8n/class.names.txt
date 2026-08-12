@@ -1,0 +1,5 @@
+qr_code
+code_39
+code_128
+ean_13
+pdf_417
