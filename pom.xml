@@ -21,6 +21,9 @@
         <module>utils-support-models-onnx-doclaynet</module>
         <module>utils-support-models-onnx-table-detect</module>
         <module>utils-support-models-onnx-seal-detect</module>
+        <module>utils-support-models-onnx-barcode</module>
+        <module>utils-support-models-onnx-ppe</module>
+        <module>utils-support-models-onnx-fire-smoke</module>
         <module>utils-support-models-onnx-minimind</module>
     </modules>
 

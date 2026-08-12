@@ -1,0 +1,18 @@
+# 模型文件占位
+#
+# utils-support-models-onnx-fire-smoke JAR 应包含:
+#   vision/fire-smoke/yolov8n/model.onnx       (~6MB, YOLOv8n @ 640, 2 类)
+#   vision/fire-smoke/yolov8n/class.names.txt  (2 类 fire/smoke, 上面已就绪)
+#
+# 模型未在 Git 仓库内嵌。发布到 maven 仓库（云效 / GitHub Packages）前，
+# 请执行 scripts/fetch-fire-smoke.ps1 下载 onnx 并提交到
+# src/main/resources/vision/fire-smoke/yolov8n/model.onnx。
+#
+# 推荐来源（按可访问性选择）:
+#   1. huggingface.co / keremberke/yolov8n-fire-smoke-detection
+#   2. huggingface.co / Bingsu/Fire-and-Smoke-Detection-YOLOv8n
+#   3. github.com / spacewalk01/Fire-and-Smoke-Detection-YOLOv8
+#   4. roboflow / wildfire-smoke-detection (public dataset + trained weights)
+#
+# 下载到当前目录:
+#   iwr -OutFile model.onnx <URL>

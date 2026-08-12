@@ -1,0 +1,18 @@
+# 模型文件占位
+#
+# utils-support-models-onnx-ppe JAR 应包含:
+#   vision/ppe/yolov8n/model.onnx       (~6MB, YOLOv8n @ 640, 3 类 PPE)
+#   vision/ppe/yolov8n/class.names.txt  (3 类, 上面已就绪)
+#
+# 模型未在 Git 仓库内嵌。发布到 maven 仓库（云效 / GitHub Packages）前，
+# 请执行 scripts/fetch-ppe.ps1 下载 onnx 并提交到
+# src/main/resources/vision/ppe/yolov8n/model.onnx。
+#
+# 推荐来源（按可访问性选择）:
+#   1. huggingface.co / keremberke/yolov8n-hard-hat-detection
+#   2. huggingface.co / MukhlasAdib/yolov8-ppe-detection
+#   3. huggingface.co / mshukor/yolov8-hardhat-safetyvest
+#   4. github.com / ddst-7/ppe-detection-yolov8
+#
+# 下载到当前目录:
+#   iwr -OutFile model.onnx <URL>
