@@ -1,0 +1,18 @@
+# 模型文件占位
+#
+# utils-support-models-onnx-table-detect JAR 应包含:
+#   vision/table/yolov8n/model.onnx        (~6MB, YOLOv8n @ 640, 1 类 table)
+#   vision/table/yolov8n/class.names.txt   (1 类: table)
+#
+# 模型未在 Git 仓库内嵌。发布到 maven 仓库（云效 / GitHub Packages）前，
+# 请执行 scripts/fetch-table-detect.ps1 下载 onnx 并提交到
+# src/main/resources/vision/table/yolov8n/model.onnx。
+#
+# 推荐来源（按可访问性选择）:
+#   1. huggingface.co / TabelDetection（yolov8n）
+#   2. huggingface.co / deepkml/yolov8n-table-extraction
+#   3. github.com / akhaliq/Table-Detection-YOLOv8
+#   4. 自行训练（数据集：PubLayNet table 子集、TableBank、ICDAR2013）
+#
+# 下载到当前目录:
+#   iwr -OutFile model.onnx <URL>
