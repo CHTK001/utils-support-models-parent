@@ -8,7 +8,8 @@
         <artifactId>utils-support-models-parent</artifactId>
         <version>4.0.0.42</version>
     </parent>
-    <artifactId>utils-support-models-onnx-minilm</artifactId>
+    <artifactId>utils-support-models-onnx-minilm-l6v2</artifactId>
     <packaging>jar</packaging>
-    <description>MiniLM 文本特征嵌入 ONNX 模型（~86MB）</description>
+    <description>Xenova/all-MiniLM-L6-v2 sentence embedding ONNX（384 维）+ BPE tokenizer，~23 MB 量化版，纯 CPU 离线可用，Java 侧通过 DJL HuggingfaceTokenizer 加载</description>
+
 </project>
