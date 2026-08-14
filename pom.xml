@@ -27,14 +27,20 @@
         <module>utils-support-models-onnx-minimind</module>
         <module>utils-support-models-onnx-edgesam</module>
         <module>utils-support-models-onnx-efficientsam</module>
+        <module>utils-support-models-onnx-rmbg14</module>
         <module>utils-support-models-onnx-bge-small-zh</module>
     </modules>
 
     <distributionManagement>
         <repository>
-            <id>github</id>
-            <name>GitHub Packages</name>
-            <url>https://maven.pkg.github.com/CHTK001/utils-support-models-parent</url>
+            <id>2676178-release-jmLEdB</id>
+            <name>Aliyun Maven Release Repository</name>
+            <url>https://packages.aliyun.com/6a62fa1d287d37b037a68ee8/maven/2676178-release-jmledb</url>
         </repository>
+        <snapshotRepository>
+            <id>2676178-snapshot-FwAJpk</id>
+            <name>Aliyun Maven Snapshot Repository</name>
+            <url>https://packages.aliyun.com/6a62fa1d287d37b037a68ee8/maven/2676178-snapshot-fwajpk</url>
+        </snapshotRepository>
     </distributionManagement>
 </project>
