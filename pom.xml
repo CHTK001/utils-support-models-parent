@@ -25,6 +25,9 @@
         <module>utils-support-models-onnx-ppe</module>
         <module>utils-support-models-onnx-fire-smoke</module>
         <module>utils-support-models-onnx-minimind</module>
+        <module>utils-support-models-onnx-edgesam</module>
+        <module>utils-support-models-onnx-efficientsam</module>
+        <module>utils-support-models-onnx-bge-small-zh</module>
     </modules>
 
     <distributionManagement>
