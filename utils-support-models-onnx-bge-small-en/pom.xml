@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.chua</groupId>
+        <artifactId>utils-support-models-parent</artifactId>
+        <version>4.0.0.42</version>
+    </parent>
+    <artifactId>utils-support-models-onnx-bge-small-en</artifactId>
+    <name>utils-support-models-onnx-bge-small-en</name>
+    <description>BGE-small-en-v1.5 ONNX 模型包（~63MB, FP16, 384维英文句向量）。来源 onnx-community/bge-small-en-v1.5-ONNX（HuggingFace 镜像）。</description>
+</project>
