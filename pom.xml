@@ -21,35 +21,10 @@
         <module>utils-support-models-onnx-card-correction</module>
         <module>utils-support-models-onnx-efficientnet</module>
         <module>utils-support-models-onnx-fer</module>
-        <module>utils-support-models-onnx-minilm-l6v2</module>
-        <module>utils-support-models-onnx-doclaynet</module>
-        <module>utils-support-models-onnx-table-detect</module>
-        <module>utils-support-models-onnx-seal-detect</module>
-        <module>utils-support-models-onnx-barcode</module>
-        <module>utils-support-models-onnx-ppe</module>
-        <module>utils-support-models-onnx-fire-smoke</module>
         <module>utils-support-models-onnx-minimind</module>
-        <module>utils-support-models-onnx-edgesam</module>
-        <module>utils-support-models-onnx-efficientsam</module>
-        <module>utils-support-models-onnx-rmbg14</module>
-        <module>utils-support-models-onnx-fastsam</module>
-        <module>utils-support-models-onnx-yolov8n-pose</module>
-        <module>utils-support-models-onnx-dinov2-small</module>
-        <module>utils-support-models-onnx-mobileclip-s0</module>
-        <module>utils-support-models-onnx-modnet</module>
-        <module>utils-support-models-onnx-bge-small-en</module>
-        <module>utils-support-models-onnx-bge-small-zh</module>
-        <!-- ==================== 风格迁移 ONNX 模型（Fast Neural Style Transfer） ==================== -->
-        <module>utils-support-models-onnx-style-candy</module>
-        <module>utils-support-models-onnx-style-mosaic</module>
-        <module>utils-support-models-onnx-style-rain-princess</module>
-        <module>utils-support-models-onnx-style-udnie</module>
-        <module>utils-support-models-onnx-style-pointilism</module>
-        <!-- ==================== 动漫风格迁移 ONNX 模型（AnimeGANv2） ==================== -->
-        <module>utils-support-models-onnx-animegan-hayao</module>
-        <module>utils-support-models-onnx-animegan-shinkai</module>
-        <module>utils-support-models-onnx-animegan-paprika</module>
-        <module>utils-support-models-onnx-animegan-face-portrait</module>
+        <!-- ==================== 语音合成 / 图像描述 ONNX 模型 ==================== -->
+        <module>utils-support-models-onnx-mms-tts-eng</module>
+        <module>utils-support-models-onnx-vit-gpt2-captioning</module>
         <!-- ==================== 人脸活体 / 动漫人脸检测 ONNX 模型 ==================== -->
         <module>utils-support-models-onnx-face-liveness</module>
         <module>utils-support-models-onnx-face-liveness-flxc</module>
