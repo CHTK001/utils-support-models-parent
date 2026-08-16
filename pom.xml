@@ -12,6 +12,7 @@
     <modules>
         <module>utils-support-models-onnx-ppocr-cls</module>
         <module>utils-support-models-onnx-textbsr</module>
+        <module>utils-support-models-onnx-opus-mt-zh-en</module>
         <module>utils-support-models-onnx-paddleocrv6-tiny</module>
         <module>utils-support-models-onnx-paddleocrv6-medium</module>
         <module>utils-support-models-onnx-whisper</module>
@@ -48,6 +49,10 @@
         <module>utils-support-models-onnx-animegan-shinkai</module>
         <module>utils-support-models-onnx-animegan-paprika</module>
         <module>utils-support-models-onnx-animegan-face-portrait</module>
+        <!-- ==================== 人脸活体 / 动漫人脸检测 ONNX 模型 ==================== -->
+        <module>utils-support-models-onnx-face-liveness</module>
+        <module>utils-support-models-onnx-face-liveness-flxc</module>
+        <module>utils-support-models-onnx-anime-face</module>
     </modules>
 
     <distributionManagement>
