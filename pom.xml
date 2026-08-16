@@ -10,6 +10,8 @@
     <description>预编译 ONNX 模型库聚合项目，模型以 jar 形式发布到 GitHub Packages</description>
 
     <modules>
+        <module>utils-support-models-onnx-ppocr-cls</module>
+        <module>utils-support-models-onnx-textbsr</module>
         <module>utils-support-models-onnx-paddleocrv6-tiny</module>
         <module>utils-support-models-onnx-paddleocrv6-medium</module>
         <module>utils-support-models-onnx-whisper</module>
