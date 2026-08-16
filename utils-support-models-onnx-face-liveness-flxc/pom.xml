@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.chua</groupId>
+        <artifactId>utils-support-models-parent</artifactId>
+        <version>4.0.0.42</version>
+    </parent>
+    <artifactId>utils-support-models-onnx-face-liveness-flxc</artifactId>
+    <packaging>jar</packaging>
+    <description>炫彩人脸活体检测小模型（FLXC ResNet @ 112x112 12通道, ~0.3MB）。来源 ModelScope iic/cv_manual_face-liveness_flxc。需多帧序列输入。</description>
+</project>
