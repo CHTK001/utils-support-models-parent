@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.chua</groupId>
+        <artifactId>utils-support-models-parent</artifactId>
+        <version>4.0.0.42</version>
+    </parent>
+    <artifactId>utils-support-models-onnx-vit-gpt2-captioning</artifactId>
+    <packaging>jar</packaging>
+    <description>ViT-GPT2 图像描述量化 ONNX 模型（encoder_model_quantized.onnx, ~83MB）。模型来源 modelscope Xenova/vit-gpt2-image-captioning。</description>
+</project>
