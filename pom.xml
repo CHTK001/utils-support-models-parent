@@ -29,6 +29,11 @@
         <module>utils-support-models-onnx-face-liveness</module>
         <module>utils-support-models-onnx-face-liveness-flxc</module>
         <module>utils-support-models-onnx-anime-face</module>
+        <!-- ==================== 人脸识别 / FacePlugin ONNX 模型 ==================== -->
+        <module>utils-support-models-onnx-arcface</module>
+        <module>utils-support-models-onnx-faceplugin-detect-slim</module>
+        <module>utils-support-models-onnx-faceplugin-landmark</module>
+        <module>utils-support-models-onnx-faceplugin-feature</module>
     </modules>
 
     <distributionManagement>
