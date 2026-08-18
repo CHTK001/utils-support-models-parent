@@ -25,6 +25,7 @@
         <module>utils-support-models-onnx-minimind</module>
         <!-- ==================== 语音合成 / 图像描述 ONNX 模型 ==================== -->
         <module>utils-support-models-onnx-mms-tts-eng</module>
+        <module>utils-support-models-onnx-pocket-tts</module>
         <module>utils-support-models-onnx-vit-gpt2-captioning</module>
         <!-- ==================== 人脸活体 / 动漫人脸检测 ONNX 模型 ==================== -->
         <module>utils-support-models-onnx-face-liveness</module>

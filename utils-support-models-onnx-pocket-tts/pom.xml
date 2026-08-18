@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.chua</groupId>
+        <artifactId>utils-support-models-parent</artifactId>
+        <version>4.0.0.42</version>
+    </parent>
+    <artifactId>utils-support-models-onnx-pocket-tts</artifactId>
+    <packaging>jar</packaging>
+    <description>Kyutai Pocket-TTS 嵌入式语音合成 ONNX 模型（text_encoder + flow + mimi_decoder, int8 量化 ~225MB, 24kHz）。模型来源 sherpa-onnx pocket-tts int8 导出（KevinAHM / csukuangfj2）。</description>
+</project>
