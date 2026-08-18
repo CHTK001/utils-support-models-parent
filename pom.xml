@@ -11,6 +11,7 @@
 
     <modules>
         <module>utils-support-models-onnx-ppocr-cls</module>
+        <module>utils-support-models-onnx-doc-orientation</module>
         <module>utils-support-models-onnx-textbsr</module>
         <module>utils-support-models-onnx-opus-mt-zh-en</module>
         <module>utils-support-models-onnx-duguang-ocr</module>
