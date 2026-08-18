@@ -1,0 +1,31 @@
+{
+  "_comment": "Pocket-TTS 嵌入式推理配置。字段说明：model_files 指定 ONNX 文件名（按实际导出包调整）；tensor_names 指定各模型输入/输出张量名（留空自动按 dtype/shape 推断）；mimi_encoder 用于零样本声音克隆（参考音频 → 潜变量，可选，缺省时仅默认音色）；flow_ref_audio 为 flow 模型的参考音频潜变量输入名（克隆模式使用）；frames_per_token 控制潜变量帧数估算；flow_steps 为流匹配采样步数（蒸馏一致性模型通常 4 步）。",
+  "sample_rate": 24000,
+  "latent_dim": 8,
+  "frame_rate": 12.5,
+  "flow_steps": 4,
+  "frames_per_token": 4.0,
+  "max_text_length": 512,
+  "max_frames": 4096,
+  "model_files": {
+    "text_encoder": "text_encoder.onnx",
+    "flow": "flow.onnx",
+    "mimi_decoder": "mimi_decoder.onnx",
+    "mimi_encoder": "mimi_encoder.onnx",
+    "tokenizer": "tokenizer.json"
+  },
+  "tensor_names": {
+    "text_encoder_input": "tokens",
+    "text_encoder_output": "text_embeddings",
+    "flow_x": "x",
+    "flow_t": "t",
+    "flow_text_embeddings": "text_embeddings",
+    "flow_mask": "mask",
+    "flow_ref_audio": "ref_audio",
+    "flow_output": "v",
+    "mimi_encoder_input": "waveform",
+    "mimi_encoder_output": "latents",
+    "mimi_input": "latents",
+    "mimi_output": "waveform"
+  }
+}
