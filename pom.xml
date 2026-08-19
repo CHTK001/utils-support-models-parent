@@ -16,6 +16,12 @@
         <module>utils-support-models-onnx-textbsr</module>
         <module>utils-support-models-onnx-opus-mt-zh-en</module>
         <module>utils-support-models-onnx-opus-mt-en-zh</module>
+        <module>utils-support-models-onnx-minilm</module>
+        <module>utils-support-models-onnx-minilm-l6v2</module>
+        <module>utils-support-models-onnx-bge-small-en</module>
+        <module>utils-support-models-onnx-bge-small-zh</module>
+        <module>utils-support-models-onnx-dinov2-small</module>
+        <module>utils-support-models-onnx-mobileclip-s0</module>
         <module>utils-support-models-onnx-duguang-ocr</module>
         <module>utils-support-models-onnx-paddleocrv6-tiny</module>
         <module>utils-support-models-onnx-paddleocrv6-medium</module>
