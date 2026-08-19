@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.chua</groupId>
+        <artifactId>utils-support-models-parent</artifactId>
+        <version>4.0.0.42</version>
+    </parent>
+    <artifactId>utils-support-models-onnx-vits-icefall-zh</artifactId>
+    <packaging>jar</packaging>
+    <description>中文 VITS TTS ONNX 模型（liaowenbin/vits-icefall-zh-aishell3，sherpa-onnx 导出），8kHz 多说话人 174 音色，含音素词表、lexicon 字→音素映射与说话人列表资源包</description>
+
+</project>
