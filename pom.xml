@@ -9,8 +9,9 @@
     <packaging>pom</packaging>
     <description>预编译 ONNX 模型库聚合项目，模型以 jar 形式发布到 GitHub Packages</description>
 
-    <modules>
+<modules>
         <module>utils-support-models-onnx-ppocr-cls</module>
+        <module>utils-support-models-onnx-ppdoclayoutv3</module>
         <module>utils-support-models-onnx-doc-orientation</module>
         <module>utils-support-models-onnx-textbsr</module>
         <module>utils-support-models-onnx-opus-mt-zh-en</module>
@@ -36,6 +37,15 @@
         <module>utils-support-models-onnx-faceplugin-detect-slim</module>
         <module>utils-support-models-onnx-faceplugin-landmark</module>
         <module>utils-support-models-onnx-faceplugin-feature</module>
+        <module>utils-support-models-onnx-animegan-hayao</module>
+        <module>utils-support-models-onnx-animegan-shinkai</module>
+        <module>utils-support-models-onnx-animegan-ghibli</module>
+        <module>utils-support-models-onnx-style-candy</module>
+        <module>utils-support-models-onnx-style-mosaic</module>
+        <module>utils-support-models-onnx-style-rain-princess</module>
+        <module>utils-support-models-onnx-style-udnie</module>
+        <module>utils-support-models-onnx-style-pointilism</module>
+        <module>utils-support-models-onnx-lu2net</module>
     </modules>
 
     <distributionManagement>
@@ -51,3 +61,7 @@
         </snapshotRepository>
     </distributionManagement>
 </project>
+
+
+
+
