@@ -14,6 +14,7 @@
         <module>utils-support-models-onnx-scrfd-face</module>
         <module>utils-support-models-onnx-ultra-face</module>
         <module>utils-support-models-onnx-yolo-face</module>
+        <module>utils-support-models-onnx-retinaface-r34</module>
         <module>utils-support-models-onnx-ppdoclayoutv3</module>
         <module>utils-support-models-onnx-doc-orientation</module>
         <module>utils-support-models-onnx-textbsr</module>
