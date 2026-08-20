@@ -10,3 +10,4 @@ __pycache__/
 
 # huggingface_hub 缓存
 CACHEDIR.TAG
+*.gguf
