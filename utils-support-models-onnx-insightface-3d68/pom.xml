@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.chua</groupId>
+        <artifactId>utils-support-models-parent</artifactId>
+        <version>4.0.0.42</version>
+    </parent>
+    <artifactId>utils-support-models-onnx-insightface-3d68</artifactId>
+    <packaging>jar</packaging>
+    <description>InsightFace 1K3D68 3D 人脸关键点模型（buffalo_l，192 输入，1103 顶点，143MB）</description>
+</project>
