@@ -11,15 +11,27 @@
 
 <modules>
         <module>utils-support-models-onnx-ppocr-cls</module>
+        <module>utils-support-models-onnx-scrfd-face</module>
+        <module>utils-support-models-onnx-ultra-face</module>
+        <module>utils-support-models-onnx-yolo-face</module>
+        <module>utils-support-models-onnx-retinaface-r34</module>
+        <module>utils-support-models-onnx-tinaface</module>
+        <module>utils-support-models-onnx-insightface-scrfd</module>
+        <module>utils-support-models-onnx-insightface-landmark</module>
+        <module>utils-support-models-onnx-insightface-adaface</module>
+        <module>utils-support-models-onnx-insightface-genderage</module>
+        <module>utils-support-models-onnx-insightface-3d68</module>
         <module>utils-support-models-onnx-ppdoclayoutv3</module>
+        <module>utils-support-models-onnx-doclayout-yolo</module>
         <module>utils-support-models-onnx-doc-orientation</module>
         <module>utils-support-models-onnx-textbsr</module>
         <module>utils-support-models-onnx-opus-mt-zh-en</module>
         <module>utils-support-models-onnx-opus-mt-en-zh</module>
-        <module>utils-support-models-onnx-minilm</module>
-        <module>utils-support-models-onnx-minilm-l6v2</module>
+        <module>utils-support-models-onnx-minilm-int8</module>
+        <module>utils-support-models-onnx-minilm-fp32</module>
         <module>utils-support-models-onnx-bge-small-en</module>
         <module>utils-support-models-onnx-bge-small-zh</module>
+        <module>utils-support-models-onnx-bge-large-zh</module>
         <module>utils-support-models-onnx-dinov2-small</module>
         <module>utils-support-models-onnx-mobileclip-s0</module>
         <module>utils-support-models-onnx-duguang-ocr</module>
@@ -49,11 +61,6 @@
         <module>utils-support-models-onnx-animegan-hayao</module>
         <module>utils-support-models-onnx-animegan-shinkai</module>
         <module>utils-support-models-onnx-animegan-ghibli</module>
-        <module>utils-support-models-onnx-style-candy</module>
-        <module>utils-support-models-onnx-style-mosaic</module>
-        <module>utils-support-models-onnx-style-rain-princess</module>
-        <module>utils-support-models-onnx-style-udnie</module>
-        <module>utils-support-models-onnx-style-pointilism</module>
         <module>utils-support-models-onnx-lu2net</module>
     </modules>
 
