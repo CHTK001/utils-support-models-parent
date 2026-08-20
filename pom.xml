@@ -16,7 +16,13 @@
         <module>utils-support-models-onnx-yolo-face</module>
         <module>utils-support-models-onnx-retinaface-r34</module>
         <module>utils-support-models-onnx-tinaface</module>
+        <module>utils-support-models-onnx-insightface-scrfd</module>
+        <module>utils-support-models-onnx-insightface-landmark</module>
+        <module>utils-support-models-onnx-insightface-adaface</module>
+        <module>utils-support-models-onnx-insightface-genderage</module>
+        <module>utils-support-models-onnx-insightface-3d68</module>
         <module>utils-support-models-onnx-ppdoclayoutv3</module>
+        <module>utils-support-models-onnx-doclayout-yolo</module>
         <module>utils-support-models-onnx-doc-orientation</module>
         <module>utils-support-models-onnx-textbsr</module>
         <module>utils-support-models-onnx-opus-mt-zh-en</module>
