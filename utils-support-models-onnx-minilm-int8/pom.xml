@@ -6,7 +6,7 @@
         <artifactId>utils-support-models-parent</artifactId>
         <version>4.0.0.42</version>
     </parent>
-    <artifactId>utils-support-models-onnx-minilm</artifactId>
+    <artifactId>utils-support-models-onnx-minilm-int8</artifactId>
     <packaging>jar</packaging>
-    <description>MiniLM 英文句向量 ONNX 模型（384维，~22MB）</description>
+    <description>all-MiniLM-L6-v2 英文句向量 ONNX 模型 int8 量化版（384维，~22MB）</description>
 </project>
