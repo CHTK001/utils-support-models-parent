@@ -8,7 +8,7 @@
         <artifactId>utils-support-models-parent</artifactId>
         <version>4.0.0.42</version>
     </parent>
-    <artifactId>utils-support-models-onnx-style-rain-princess</artifactId>
+    <artifactId>utils-support-models-onnx-retinaface-r34</artifactId>
     <packaging>jar</packaging>
-    <description>Fast Neural Style rain princess ONNX model</description>
+    <description>RetinaFace R34 人脸检测模型（ResNet34 骨干，ONNX，88.5MB）</description>
 </project>
