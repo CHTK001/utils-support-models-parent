@@ -1,3 +1,2 @@
-helmet
-vest
-no-helmet
+Hardhat
+NO-Hardhat
