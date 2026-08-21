@@ -62,6 +62,9 @@
         <module>utils-support-models-onnx-animegan-shinkai</module>
         <module>utils-support-models-onnx-animegan-ghibli</module>
         <module>utils-support-models-onnx-lu2net</module>
+        <!-- ==================== 烟火 / 安全帽检测 ONNX 模型 ==================== -->
+        <module>utils-support-models-onnx-fire-smoke</module>
+        <module>utils-support-models-onnx-ppe</module>
     </modules>
 
     <distributionManagement>
