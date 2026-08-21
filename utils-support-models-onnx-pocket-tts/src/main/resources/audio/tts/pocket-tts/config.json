@@ -12,7 +12,7 @@
     "flow": "lm_flow.int8.onnx",
     "mimi_decoder": "decoder.int8.onnx",
     "mimi_encoder": "encoder.onnx",
-    "tokenizer": "vocab.json"
+    "tokenizer": "tokenizer.model"
   },
   "tensor_names": {
     "text_encoder_input": "input_ids",
