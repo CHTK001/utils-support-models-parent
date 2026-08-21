@@ -62,6 +62,7 @@
         <module>utils-support-models-onnx-animegan-shinkai</module>
         <module>utils-support-models-onnx-animegan-ghibli</module>
         <module>utils-support-models-onnx-lu2net</module>
+        <module>utils-support-models-onnx-mt5-zh</module>
     </modules>
 
     <distributionManagement>
