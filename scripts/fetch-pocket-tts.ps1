@@ -19,7 +19,7 @@ if (-not (Test-Path $destDir)) {
     New-Item -ItemType Directory -Path $destDir -Force | Out-Null
 }
 
-$files = @("lm_main.int8.onnx", "lm_flow.int8.onnx", "decoder.int8.onnx", "encoder.onnx", "vocab.json")
+$files = @("lm_main.int8.onnx", "lm_flow.int8.onnx", "decoder.int8.onnx", "encoder.onnx", "tokenizer.json", "vocab.json")
 
 Write-Host "==> Downloading Pocket-TTS int8 ONNX models" -ForegroundColor Green
 Write-Host "    BaseUrl: $BaseUrl"
