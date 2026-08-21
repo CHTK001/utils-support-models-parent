@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.chua</groupId>
+        <artifactId>utils-support-models-parent</artifactId>
+        <version>4.0.0.42</version>
+    </parent>
+    <artifactId>utils-support-models-onnx-visdrone</artifactId>
+    <packaging>jar</packaging>
+    <description>VisDrone 小目标检测 ONNX 模型（DAMO-YOLO-TinyNAS L25_S 640，126M 含权重，VisDrone 10类），嵌入 jar 真嵌入</description>
+</project>
