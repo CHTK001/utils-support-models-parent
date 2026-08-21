@@ -63,7 +63,7 @@
         <module>utils-support-models-onnx-animegan-ghibli</module>
         <module>utils-support-models-onnx-lu2net</module>
         <module>utils-support-models-onnx-mt5-zh</module>
-            <module>utils-support-models-onnx-visdrone</module>
+        <module>utils-support-models-onnx-visdrone</module>
     </modules>
 
     <distributionManagement>
@@ -79,8 +79,6 @@
         </snapshotRepository>
     </distributionManagement>
 </project>
-
-
 
 
 
