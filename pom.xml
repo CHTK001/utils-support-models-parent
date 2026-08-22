@@ -67,6 +67,8 @@
         <module>utils-support-models-onnx-ppe</module>
         <module>utils-support-models-onnx-mt5-zh</module>
         <module>utils-support-models-onnx-visdrone</module>
+        <!-- ==================== 音频指纹 / 说话人嵌入 ONNX 模型 ==================== -->
+        <module>utils-support-models-onnx-wespeaker</module>
     </modules>
 
     <distributionManagement>
