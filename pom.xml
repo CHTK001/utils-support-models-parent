@@ -44,7 +44,7 @@
         <module>utils-support-models-onnx-efficientnet</module>
         <module>utils-support-models-onnx-fer</module>
         <module>utils-support-models-onnx-minimind</module>
-        <module>utils-support-models-onnx-gemma-3-270m-uk-verbalizer</module>
+        <module>utils-support-models-onnx-gemma-3-270m</module>
         <!-- ==================== 语音合成 / 图像描述 ONNX 模型 ==================== -->
 <module>utils-support-models-onnx-mms-tts-eng</module>
         <module>utils-support-models-onnx-pocket-tts</module>
@@ -85,6 +85,5 @@
         </snapshotRepository>
     </distributionManagement>
 </project>
-
 
 
