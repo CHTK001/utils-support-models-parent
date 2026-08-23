@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.chua</groupId>
+        <artifactId>utils-support-models-parent</artifactId>
+        <version>4.0.0.42</version>
+    </parent>
+    <artifactId>utils-support-models-onnx-action-c3d</artifactId>
+    <packaging>jar</packaging>
+    <description>ResNetC3D 日常动作检测 ONNX 模型（9 类动作：举手/吃喝/吸烟/打电话/玩手机/趴桌睡觉/跌倒/洗手/拍照，~95MB）</description>
+</project>
