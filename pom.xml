@@ -65,11 +65,25 @@
         <module>utils-support-models-onnx-lu2net</module>
         <!-- ==================== 烟火 / 安全帽检测 ONNX 模型 ==================== -->
         <module>utils-support-models-onnx-fire-smoke</module>
+        <module>utils-support-models-onnx-action-c3d</module>
+        <!-- ==================== 语音降噪（DFSMN ANS）ONNX 模型 ==================== -->
+        <module>utils-support-models-onnx-dfsmn-ans</module>
+        <!-- ==================== 印章检测 ONNX 模型 ==================== -->
+        <module>utils-support-models-onnx-seal-inspection</module>
         <module>utils-support-models-onnx-ppe</module>
         <module>utils-support-models-onnx-mt5-zh</module>
+        <module>utils-support-models-onnx-bart-zh</module>
         <module>utils-support-models-onnx-visdrone</module>
         <!-- ==================== 音频指纹 / 说话人嵌入 ONNX 模型 ==================== -->
         <module>utils-support-models-onnx-wespeaker</module>
+            <module>utils-support-models-onnx-moat-tagger-v2</module>
+            <module>utils-support-models-onnx-anime-seg</module>
+            <module>utils-support-models-onnx-cloth-seg</module>
+            <module>utils-support-models-onnx-human-seg</module>
+            <module>utils-support-models-onnx-isnet</module>
+            <module>utils-support-models-onnx-u2net</module>
+            <module>utils-support-models-onnx-u2netp</module>
+            <module>utils-support-models-onnx-sam2-tiny</module>
     </modules>
 
     <distributionManagement>
@@ -85,5 +99,6 @@
         </snapshotRepository>
     </distributionManagement>
 </project>
+
 
 
