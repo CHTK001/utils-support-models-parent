@@ -74,6 +74,7 @@
         <module>utils-support-models-onnx-mt5-zh</module>
         <module>utils-support-models-onnx-bart-zh</module>
         <module>utils-support-models-onnx-visdrone</module>
+        <module>utils-support-models-onnx-yoloworld-s</module>
         <!-- ==================== 音频指纹 / 说话人嵌入 ONNX 模型 ==================== -->
         <module>utils-support-models-onnx-wespeaker</module>
             <module>utils-support-models-onnx-moat-tagger-v2</module>
