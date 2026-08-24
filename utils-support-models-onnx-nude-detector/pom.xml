@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.chua</groupId>
+        <artifactId>utils-support-models-parent</artifactId>
+        <version>4.0.0.42</version>
+    </parent>
+    <artifactId>utils-support-models-onnx-nude-detector</artifactId>
+    <packaging>jar</packaging>
+    <description>NSFW 敏感部位检测模型（YOLOv8n@320，NudeNet 18 类标签，用于内容审核与不合规图片拦截）</description>
+</project>
