@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.chua</groupId>
+        <artifactId>utils-support-models-parent</artifactId>
+        <version>4.0.0.42</version>
+    </parent>
+    <artifactId>utils-support-models-onnx-dfine-l-obj2coco</artifactId>
+    <packaging>jar</packaging>
+    <description>D-FINE-L ?????Objects365 ??? -> COCO 80 ????57.3 AP??int8 ???? ONNX???????vision/detection/dfine_l_obj2coco/model_quantized.onnx</description>
+
+    
+</project>
