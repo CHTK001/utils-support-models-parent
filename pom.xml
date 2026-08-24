@@ -73,6 +73,7 @@
         <module>utils-support-models-onnx-ppe</module>
         <!-- ==================== 内容审核 / NSFW 敏感图片检测 ONNX 模型 ==================== -->
         <module>utils-support-models-onnx-nude-detector</module>
+        <module>utils-support-models-onnx-nsfw-classify-int8</module>
         <module>utils-support-models-onnx-mt5-zh</module>
         <module>utils-support-models-onnx-bart-zh</module>
         <module>utils-support-models-onnx-visdrone</module>
