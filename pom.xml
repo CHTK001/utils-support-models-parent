@@ -86,6 +86,7 @@
             <module>utils-support-models-onnx-u2netp</module>
             <module>utils-support-models-onnx-sam2-tiny</module>
         <module>utils-support-models-onnx-image-colorize</module>
+    <module>utils-support-models-onnx-dfine-l-obj2coco</module>
 </modules>
 
     <distributionManagement>
