@@ -10,7 +10,6 @@
     </parent>
     <artifactId>utils-support-models-onnx-image-colorize</artifactId>
     <packaging>jar</packaging>
-    <description>老照片上色模型（DeOldify Artistic ONNX，约 243MB），嵌入式资源：vision/colorization/deoldify/model.onnx</description>
+    <description>老照片上色模型（DeOldify Artistic ONNX fp16，~121MB，输入输出 256×256 RGB，float16 张量），嵌入式资源：vision/colorization/deoldify/model.onnx</description>
 
-    
 </project>
