@@ -10,5 +10,5 @@
     </parent>
     <artifactId>utils-support-models-onnx-doclayout-yolo</artifactId>
     <packaging>jar</packaging>
-    <description>DocLayout-YOLO 文档版面分析模型（YOLOv10，DocStructBench 10 类，1280×1280 输入，ONNX，含 title 检测）</description>
+    <description>DocLayout-YOLO 文档版面分析模型（YOLOv10 端到端，DocStructBench 10 类，1024 输入，输出 [300,6]，~75MB）</description>
 </project>
