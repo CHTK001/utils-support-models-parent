@@ -10,5 +10,5 @@
     </parent>
     <artifactId>utils-support-models-onnx-wespeaker</artifactId>
     <packaging>jar</packaging>
-    <description>Wespeaker ResNet34 说话人嵌入 ONNX 模型（INT8 量化，~6.7MB，512 维 x-vector，嵌入式）</description>
+    <description>Wespeaker ResNet34 说话人嵌入 ONNX 模型（fp32，~26MB，256 维 x-vector，VoxCeleb 训练，输入 80 维 fbank）</description>
 </project>
