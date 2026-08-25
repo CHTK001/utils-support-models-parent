@@ -10,7 +10,6 @@
     </parent>
     <artifactId>utils-support-models-onnx-rtdetr-layout</artifactId>
     <packaging>jar</packaging>
-    <description>RT-DETR v2 ???????DocLayNet 17 ??169MB fp32????????vision/layout/rtdetr/model.onnx</description>
+    <description>RT-DETR 系文档版面分析模型（PP-DocLayout_plus-L 官方 ONNX，DETR 架构，800 输入，20 类版面元素，~130MB fp32）</description>
 
-    
 </project>
