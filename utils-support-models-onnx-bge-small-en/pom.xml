@@ -8,5 +8,5 @@
     </parent>
     <artifactId>utils-support-models-onnx-bge-small-en</artifactId>
     <packaging>jar</packaging>
-    <description>BGE-small-en 英文文本嵌入 ONNX 模型（384维，~64MB），含 tokenizer</description>
+    <description>BGE-small-en-v1.5 英文文本嵌入 ONNX 模型（384维，fp32 ~133MB，Xenova 转换版），含 tokenizer</description>
 </project>
