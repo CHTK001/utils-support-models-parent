@@ -10,5 +10,5 @@
     </parent>
     <artifactId>utils-support-models-onnx-retinaface-r34</artifactId>
     <packaging>jar</packaging>
-    <description>RetinaFace R34 人脸检测模型（ResNet34 骨干，ONNX，88.5MB）</description>
+    <description>RetinaFace R34 人脸检测模型（ResNet34 骨干，640 输入，输出 bbox/conf/landmarks 三头，来源 py-feat WIDERFACE 88.9% Hard AP，~88MB）</description>
 </project>
