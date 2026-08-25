@@ -53,6 +53,7 @@
         <!-- ==================== 人脸活体 / 动漫人脸检测 ONNX 模型 ==================== -->
         <module>utils-support-models-onnx-face-liveness</module>
         <module>utils-support-models-onnx-face-liveness-flxc</module>
+        <module>utils-support-models-onnx-face-liveness-minifasnet</module>
         <module>utils-support-models-onnx-anime-face</module>
         <!-- ==================== 人脸识别 / FacePlugin ONNX 模型 ==================== -->
         <module>utils-support-models-onnx-arcface</module>
