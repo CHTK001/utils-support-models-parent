@@ -53,7 +53,6 @@
         <!-- ==================== 人脸活体 / 动漫人脸检测 ONNX 模型 ==================== -->
         <module>utils-support-models-onnx-face-liveness</module>
         <module>utils-support-models-onnx-face-liveness-flxc</module>
-        <module>utils-support-models-onnx-face-liveness-minifasnet</module>
         <module>utils-support-models-onnx-anime-face</module>
         <!-- ==================== 人脸识别 / FacePlugin ONNX 模型 ==================== -->
         <module>utils-support-models-onnx-arcface</module>
@@ -72,6 +71,9 @@
         <!-- ==================== 印章检测 ONNX 模型 ==================== -->
         <module>utils-support-models-onnx-seal-inspection</module>
         <module>utils-support-models-onnx-ppe</module>
+        <!-- ==================== 人脸修复 / 增强 ONNX 模型 ==================== -->
+        <module>utils-support-models-onnx-gfpgan</module>
+        <module>utils-support-models-onnx-codeformer</module>
         <!-- ==================== 内容审核 / NSFW 敏感图片检测 ONNX 模型 ==================== -->
         <module>utils-support-models-onnx-nude-detector</module>
         <module>utils-support-models-onnx-nsfw-classify-int8</module>
