@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.chua</groupId>
+        <artifactId>utils-support-models-parent</artifactId>
+        <version>4.0.0.42</version>
+    </parent>
+    <artifactId>utils-support-models-onnx-gfpgan</artifactId>
+    <packaging>jar</packaging>
+    <description>GFPGAN v1.4 人脸盲修复/超分模型（512×512 输入，[-1,1] 归一化 float32，输出同尺寸，来源 Meeperomi ONNX 转换版，~340MB）</description>
+</project>
