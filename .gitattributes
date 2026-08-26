@@ -1,2 +1,2 @@
-*.java text eol=lf
 *.onnx filter=lfs diff=lfs merge=lfs -text
+*.java text eol=lf
