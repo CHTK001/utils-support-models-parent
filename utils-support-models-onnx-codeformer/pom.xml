@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.chua</groupId>
+        <artifactId>utils-support-models-parent</artifactId>
+        <version>4.0.0.42</version>
+    </parent>
+    <artifactId>utils-support-models-onnx-codeformer</artifactId>
+    <packaging>jar</packaging>
+    <description>CodeFormer 人脸修复模型（512×512 输入 x + 保真度权重 w(double 标量 0~1)，三输出取 y，bluefoxcreation ONNX 版，~360MB）</description>
+</project>
