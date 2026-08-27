@@ -40,6 +40,7 @@
         <module>utils-support-models-onnx-whisper</module>
         <module>utils-support-models-onnx-paraformer-zh-small</module>
         <module>utils-support-models-onnx-yolov5-plate</module>
+        <module>utils-support-models-onnx-yolo11-plate</module>
         <module>utils-support-models-onnx-card-correction</module>
         <module>utils-support-models-onnx-efficientnet</module>
         <module>utils-support-models-onnx-fer</module>
@@ -109,6 +110,7 @@
         </snapshotRepository>
     </distributionManagement>
 </project>
+
 
 
 
