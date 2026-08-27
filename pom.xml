@@ -40,10 +40,7 @@
         <module>utils-support-models-onnx-whisper</module>
         <module>utils-support-models-onnx-paraformer-zh-small</module>
         <module>utils-support-models-onnx-yolov5-plate</module>
-<<<<<<< HEAD
-=======
         <module>utils-support-models-onnx-yolo11-plate</module>
->>>>>>> 8fc8d67be77573ef22f034645f6db945c7f8dd58
         <module>utils-support-models-onnx-card-correction</module>
         <module>utils-support-models-onnx-efficientnet</module>
         <module>utils-support-models-onnx-fer</module>
@@ -116,7 +113,4 @@
 
 
 
-<<<<<<< HEAD
-=======
 
->>>>>>> 8fc8d67be77573ef22f034645f6db945c7f8dd58
