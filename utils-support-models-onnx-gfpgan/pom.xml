@@ -10,5 +10,5 @@
     </parent>
     <artifactId>utils-support-models-onnx-gfpgan</artifactId>
     <packaging>jar</packaging>
-    <description>GFPGAN v1.4 人脸盲修复/超分模型（512×512 输入，[-1,1] 归一化 float32，输出同尺寸，来源 Meeperomi ONNX 转换版，~340MB）</description>
+    <description>GFPGAN v1.3 clean 人脸修复/超分模型（512×512 输入，(x-0.5)/0.5 归一化 float32，输出 [-1,1] 同尺寸，legacy trace + DOUBLE 清零，~346MB）</description>
 </project>
