@@ -1,0 +1,18 @@
+# 模型文件占位
+#
+# utils-support-models-onnx-barcode JAR 应包含:
+#   vision/barcode/yolov8n/model.onnx       (~12MB, YOLOv8s @ 640, 5 类条形码/二维码)
+#   vision/barcode/yolov8n/class.names.txt  (5 类, 上面已就绪)
+#
+# 模型未在 Git 仓库内嵌。发布到 maven 仓库（云效 / GitHub Packages）前，
+# 请执行 scripts/fetch-barcode.ps1 下载 onnx 并提交到
+# src/main/resources/vision/barcode/yolov8n/model.onnx。
+#
+# 推荐来源（按可访问性选择）:
+#   1. huggingface.co / dhmeltforce/yolov8-barcode-detection
+#   2. huggingface.co / Lorenzo-Giardiello/yolov8-barcode-detection
+#   3. huggingface.co / Keremberke/yolov8n-barcode-detection
+#   4. github.com / opencv/open_model_zoo (barcode detection)
+#
+# 下载到当前目录:
+#   iwr -OutFile model.onnx <URL>
