@@ -8,7 +8,7 @@
         <artifactId>utils-support-models-parent</artifactId>
         <version>4.0.0.42</version>
     </parent>
-    <artifactId>utils-support-models-onnx-yoloworld-m</artifactId>
+    <artifactId>utils-support-models-onnx-chinese-clip-vit-h-14</artifactId>
     <packaging>jar</packaging>
-    <description>YOLO-World v2-M zero-shot real-time detection ONNX model, balanced speed and accuracy; input [1,3,640,640], output [1,84,8400]</description>
+    <description>Chinese-CLIP ViT-H/14 ONNX model for image feature extraction (958M params, 1024-dim, 2.5GB)</description>
 </project>

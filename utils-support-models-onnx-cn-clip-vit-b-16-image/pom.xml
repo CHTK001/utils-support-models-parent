@@ -8,7 +8,7 @@
         <artifactId>utils-support-models-parent</artifactId>
         <version>4.0.0.42</version>
     </parent>
-    <artifactId>utils-support-models-onnx-chinese-clip-RN50</artifactId>
+    <artifactId>utils-support-models-onnx-cn-clip-vit-b-16-image</artifactId>
     <packaging>jar</packaging>
-    <description>Chinese-CLIP RN50 ONNX model for image feature extraction</description>
+    <description>Chinese-CLIP ViT-B/16 image encoder ONNX (512 dim, fp16)</description>
 </project>

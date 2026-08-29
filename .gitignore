@@ -18,5 +18,7 @@ scripts/
 *.onnx
 *.bin
 *.pt
+*.data
+*.extra_file
 # Build output
 target/
