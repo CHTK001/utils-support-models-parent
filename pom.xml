@@ -82,7 +82,7 @@
         <module>utils-support-models-onnx-bart-zh</module>
         <module>utils-support-models-onnx-visdrone</module>
         <module>utils-support-models-onnx-yoloworld-s</module>
-        <module>utils-support-models-onnx-yoloworld-m</module>
+        
         <module>utils-support-models-onnx-yoloworld-l</module>
         <!-- ==================== 音频指纹 / 说话人嵌入 ONNX 模型 ==================== -->
         <module>utils-support-models-onnx-wespeaker</module>
@@ -97,10 +97,12 @@
         <module>utils-support-models-onnx-image-colorize</module>
     <module>utils-support-models-onnx-dfine-l-obj2coco</module>
     <module>utils-support-models-onnx-rtdetr-layout</module>
-    <module>utils-support-models-onnx-chinese-clip-RN50</module>
-    <module>utils-support-models-onnx-chinese-clip-vit-h-14</module>
-    <module>utils-support-models-onnx-cn-clip-vit-b-16</module>
-    <module>utils-support-models-onnx-cn-clip-vit-l-14</module>
+        <module>utils-support-models-onnx-cn-clip-rn50-image</module>
+        <module>utils-support-models-onnx-cn-clip-rn50-text</module>
+        <module>utils-support-models-onnx-cn-clip-vit-b-16-image</module>
+        <module>utils-support-models-onnx-cn-clip-vit-b-16-text</module>
+        <module>utils-support-models-onnx-cn-clip-vit-l-14-image</module>
+        <module>utils-support-models-onnx-cn-clip-vit-l-14-text</module>
 </modules>
 
     <distributionManagement>

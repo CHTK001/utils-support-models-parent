@@ -8,7 +8,7 @@
         <artifactId>utils-support-models-parent</artifactId>
         <version>4.0.0.42</version>
     </parent>
-    <artifactId>utils-support-models-onnx-face-mask</artifactId>
+    <artifactId>utils-support-models-onnx-cn-clip-vit-l-14-image</artifactId>
     <packaging>jar</packaging>
-    <description>口罩检测模型（SigLIP2，2 类：Face_Mask Found / Not_Found）</description>
+    <description>Chinese-CLIP ViT-L/14 image encoder ONNX (768 dim, fp16)</description>
 </project>
