@@ -22,3 +22,5 @@ scripts/
 *.extra_file
 # Build output
 target/
+
+# Large model files - manually removed before push
