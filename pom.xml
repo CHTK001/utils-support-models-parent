@@ -41,6 +41,7 @@
         <module>utils-support-models-onnx-paddleocrv6-medium</module>
         <module>utils-support-models-onnx-whisper</module>
         <module>utils-support-models-onnx-paraformer-zh-small</module>
+        <module>utils-support-models-onnx-sensevoice</module>
         <module>utils-support-models-onnx-yolov5-plate</module>
         <module>utils-support-models-onnx-yolo11-plate</module>
         <module>utils-support-models-onnx-card-correction</module>
