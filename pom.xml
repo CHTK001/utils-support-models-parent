@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
@@ -87,6 +87,7 @@
         <module>utils-support-models-onnx-yoloworld-s</module>
         
         <module>utils-support-models-onnx-yoloworld-l</module>
+        <module>utils-support-models-onnx-yolo26-depth</module>
 
         <!-- ==================== 音频指纹 / 说话人嵌入 ONNX 模型 ==================== -->
         <module>utils-support-models-onnx-wespeaker</module>
