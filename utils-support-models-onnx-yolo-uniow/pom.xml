@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.chua</groupId>
+        <artifactId>utils-support-models-parent</artifactId>
+        <version>4.0.0.42</version>
+    </parent>
+    <artifactId>utils-support-models-onnx-yolo-uniow</artifactId>
+    <packaging>jar</packaging>
+    <description>YOLO-UniOW 通用开世界目标检测（THU-MIG, arxiv 2412.20645）：S 档 ONNX + 类别文本嵌入（class_embeddings_4x512.f32）+ 类别名表（dog/horse/sheep/cow，动态词表模式）。640 输入，text_features 驱动类别。来源官方 .pth 经社区 export_onnx.py 导出。</description>
+</project>
