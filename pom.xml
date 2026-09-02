@@ -14,6 +14,7 @@
         <module>utils-support-models-onnx-scrfd-face</module>
         <module>utils-support-models-onnx-ultra-face</module>
         <module>utils-support-models-onnx-yolo-face</module>
+        <module>utils-support-models-onnx-yolo-uniow</module>
         <module>utils-support-models-onnx-retinaface-r34</module>
         <module>utils-support-models-onnx-tinaface</module>
         <module>utils-support-models-onnx-insightface-scrfd</module>
