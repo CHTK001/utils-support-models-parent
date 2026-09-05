@@ -110,6 +110,7 @@
         <module>utils-support-models-onnx-cn-clip-vit-b-16-text</module>
         <module>utils-support-models-onnx-cn-clip-vit-l-14-image</module>
         <module>utils-support-models-onnx-cn-clip-vit-l-14-text</module>
+        <module>utils-support-models-onnx-ueba</module>
 </modules>
 
     <distributionManagement>

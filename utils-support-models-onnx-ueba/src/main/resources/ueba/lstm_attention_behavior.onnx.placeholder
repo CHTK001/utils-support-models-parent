@@ -1,0 +1,4 @@
+# 训练后用真实 ONNX 文件覆盖此占位文件
+
+本文件为占位说明：lstm_attention_behavior.onnx 训练产出（行为序列分类 GRU+Attention）。
+请参考同目录 README.md 完成训练后将产物放回此处。
