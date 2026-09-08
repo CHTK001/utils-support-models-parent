@@ -24,3 +24,6 @@ scripts/
 target/
 
 # Large model files - manually removed before push
+
+*.onnx_data
+utils-support-models-onnx-wemm-embedding-2b/src/main/resources/nlp/embedding/wemm-embedding-2b/tokenizer.json
