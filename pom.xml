@@ -111,7 +111,11 @@
         <module>utils-support-models-onnx-cn-clip-vit-l-14-image</module>
         <module>utils-support-models-onnx-cn-clip-vit-l-14-text</module>
         <module>utils-support-models-onnx-ueba</module>
-</modules>
+        <!-- ==================== WeMM-Embedding 多模态嵌入 ONNX 模型 ==================== -->
+        <module>utils-support-models-onnx-wemm-embedding-2b</module>
+        <module>utils-support-models-onnx-wemm-embedding-4b</module>
+        <module>utils-support-models-onnx-wemm-embedding-9b</module>
+    </modules>
 
     <distributionManagement>
         <repository>
