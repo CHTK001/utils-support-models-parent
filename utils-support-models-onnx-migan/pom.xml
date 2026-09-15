@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.chua</groupId>
+        <artifactId>utils-support-models-parent</artifactId>
+        <version>4.0.0.42</version>
+    </parent>
+    <artifactId>utils-support-models-onnx-migan</artifactId>
+    <packaging>jar</packaging>
+    <description>MiGAN 图像修复（inpainting）ONNX 动态尺寸 uint8 双输入（image+mask），~28MB 嵌入式；支持任意 H/W 修复，适用图片修复、水印去除、物体移除</description>
+</project>

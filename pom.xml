@@ -103,6 +103,7 @@
             <module>utils-support-models-onnx-sam2-tiny</module>
             <module>utils-support-models-onnx-birefnet-small</module>
             <module>utils-support-models-onnx-birefnet-large</module>
+            <module>utils-support-models-onnx-migan</module>
         <module>utils-support-models-onnx-image-colorize</module>
     <module>utils-support-models-onnx-dfine-l-obj2coco</module>
     <module>utils-support-models-onnx-rtdetr-layout</module>
