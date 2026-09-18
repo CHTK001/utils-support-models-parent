@@ -9,6 +9,10 @@
     <packaging>pom</packaging>
     <description>预编译 ONNX 模型库聚合项目，模型以 jar 形式发布到 GitHub Packages</description>
 
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
 <modules>
         <module>utils-support-models-onnx-ppocr-cls</module>
         <module>utils-support-models-onnx-scrfd-face</module>
@@ -118,9 +122,45 @@
         <module>utils-support-models-onnx-wemm-embedding-2b</module>
         <module>utils-support-models-onnx-wemm-embedding-4b</module>
         <module>utils-support-models-onnx-wemm-embedding-9b</module>
+        <!-- ==================== 补齐历史漏聚合成模块 ==================== -->
+        <module>utils-support-models-onnx-chinese-clip-vit-h-14</module>
+        <module>utils-support-models-onnx-clip-text-encoder</module>
+        <module>utils-support-models-onnx-clip-vit-zero-shot</module>
+        <module>utils-support-models-onnx-face-mask-detector</module>
+        <module>utils-support-models-onnx-fastsam</module>
+        <module>utils-support-models-onnx-modnet</module>
+        <module>utils-support-models-onnx-moss-tts</module>
+        <module>utils-support-models-onnx-reflective-clothes</module>
+        <module>utils-support-models-onnx-rmbg14</module>
+        <module>utils-support-models-onnx-safety-helmet</module>
+        <module>utils-support-models-onnx-style-candy</module>
+        <module>utils-support-models-onnx-style-mosaic</module>
+        <module>utils-support-models-onnx-style-pointilism</module>
+        <module>utils-support-models-onnx-style-rain-princess</module>
+        <module>utils-support-models-onnx-style-udnie</module>
+        <module>utils-support-models-onnx-yolov8n-pose</module>
+        <module>utils-support-models-onnx-zipformer-zh-en</module>
     </modules>
 
+    <repositories>
+        <repository>
+            <id>2676178-release-jmLEdB</id>
+            <name>Aliyun Packages Release</name>
+            <url>https://packages.aliyun.com/6a62fa1d287d37b037a68ee8/maven/2676178-release-jmledb</url>
+            <releases><enabled>true</enabled></releases>
+            <snapshots><enabled>false</enabled></snapshots>
+        </repository>
+        <repository>
+            <id>2676178-snapshot-FwAJpk</id>
+            <name>Aliyun Packages Snapshot</name>
+            <url>https://packages.aliyun.com/6a62fa1d287d37b037a68ee8/maven/2676178-snapshot-fwajpk</url>
+            <releases><enabled>true</enabled></releases>
+            <snapshots><enabled>true</enabled></snapshots>
+        </repository>
+    </repositories>
+
     <distributionManagement>
+
         <repository>
             <id>2676178-release-jmLEdB</id>
             <name>Aliyun Maven Release Repository</name>
