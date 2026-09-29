@@ -140,6 +140,21 @@
         <module>utils-support-models-onnx-style-udnie</module>
         <module>utils-support-models-onnx-yolov8n-pose</module>
         <module>utils-support-models-onnx-zipformer-zh-en</module>
+        <!-- 以下 8 个目录此前一直存在于磁盘却没注册，导致它们的模型 jar 从未参与
+             构建与发布。它们的 pom 声明的 parent 就是 utils-support-models-parent，
+             属于本反应堆，补注册即可。 -->
+        <module>utils-support-models-onnx-animegan-face-portrait</module>
+        <module>utils-support-models-onnx-animegan-paprika</module>
+        <module>utils-support-models-onnx-barcode</module>
+        <module>utils-support-models-onnx-doclaynet</module>
+        <module>utils-support-models-onnx-edgesam</module>
+        <module>utils-support-models-onnx-efficientsam</module>
+        <module>utils-support-models-onnx-seal-detect</module>
+        <module>utils-support-models-onnx-table-detect</module>
+        <!-- utils-support-models-onnx-asr 故意不注册：它的 pom 声明的 parent 是
+             utils-support-deeplearning-parent，而该目录不在本仓（不在本反应堆内）。
+             注册进来会让 reactor 解析到一个不属于本聚合器的 parent。它 413 MB，
+             是这批里最大的一个，需要单独确认归属后再处理。 -->
     </modules>
 
     <repositories>
