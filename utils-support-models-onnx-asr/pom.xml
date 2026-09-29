@@ -5,13 +5,20 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.chua</groupId>
-        <artifactId>utils-support-deeplearning-parent</artifactId>
+        <artifactId>utils-support-models-parent</artifactId>
         <version>4.0.0.42</version>
     </parent>
     <artifactId>utils-support-models-onnx-asr</artifactId>
     <packaging>jar</packaging>
     <name>Utils Support Models ONNX ASR</name>
     <description>ASR ONNX 模型：Whisper-tiny、Moonshine-base</description>
+    <!-- 原先 parent 声明的是 utils-support-deeplearning-parent（该目录在
+         utils-support-parent-starter 下，不在本仓），本模块因此长期无法被
+         models-parent 聚合构建，磁盘上有目录、构建里却没它。
+         本模块是纯模型资源 jar：无 dependencies、无 java 源，从 parent 实际继承到的
+         只有 groupId 与 version，这两项 models-parent 与 deeplearning-parent 完全一致
+         （均为 com.chua:4.0.0.42），故 reparent 不改变任何解析结果。
+         形状与已注册的兄弟模块 utils-support-models-onnx-whisper 相同。 -->
     <build>
         <resources>
             <resource>
