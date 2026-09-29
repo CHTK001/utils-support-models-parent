@@ -151,10 +151,12 @@
         <module>utils-support-models-onnx-efficientsam</module>
         <module>utils-support-models-onnx-seal-detect</module>
         <module>utils-support-models-onnx-table-detect</module>
-        <!-- utils-support-models-onnx-asr 故意不注册：它的 pom 声明的 parent 是
-             utils-support-deeplearning-parent，而该目录不在本仓（不在本反应堆内）。
-             注册进来会让 reactor 解析到一个不属于本聚合器的 parent。它 413 MB，
-             是这批里最大的一个，需要单独确认归属后再处理。 -->
+        <!-- onnx-asr 原先的 parent 是 utils-support-deeplearning-parent（不在本仓），
+             因此长期只能留在磁盘上而进不了本聚合器。已 reparent 到
+             utils-support-models-parent，其无 dependencies、无 java 源，
+             从 parent 实际继承的只有 groupId 与 version（两者与前者一致），
+             故 reparent 不改变解析结果。 -->
+        <module>utils-support-models-onnx-asr</module>
     </modules>
 
     <repositories>
