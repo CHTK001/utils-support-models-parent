@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.chua</groupId>
+        <artifactId>utils-support-models-parent</artifactId>
+        <version>4.0.0.42</version>
+    </parent>
+    <artifactId>utils-support-models-onnx-lac</artifactId>
+    <packaging>jar</packaging>
+    <description>LAC 中文分词/词性标注/NER ONNX 模型（Embedding+BiGRU+FC encoder ~30MB，CRF numpy 解码），含新词典 word.dic/tag.dic/q2b.dic</description>
+    <build>
+        <resources>
+            <resource>
+                <directory>src/main/resources</directory>
+                <filtering>false</filtering>
+            </resource>
+        </resources>
+    </build>
+</project>
