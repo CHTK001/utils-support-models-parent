@@ -157,6 +157,8 @@
              从 parent 实际继承的只有 groupId 与 version（两者与前者一致），
              故 reparent 不改变解析结果。 -->
         <module>utils-support-models-onnx-asr</module>
+        <module>utils-support-models-onnx-lac</module>
+        <module>utils-support-models-onnx-qota-ocr</module>
     </modules>
 
     <repositories>
