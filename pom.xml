@@ -159,6 +159,7 @@
         <module>utils-support-models-onnx-asr</module>
         <module>utils-support-models-onnx-lac</module>
         <module>utils-support-models-onnx-qota-ocr</module>
+        <module>utils-support-models-onnx-macbert4csc</module>
     </modules>
 
     <repositories>
