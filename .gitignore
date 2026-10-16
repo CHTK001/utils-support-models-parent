@@ -12,7 +12,12 @@ __pycache__/
 CACHEDIR.TAG
 *.gguf
 libs/
-scripts/
+# 拉取脚本本身要入库：它们只下载模型、不含模型二进制，
+# 且脚本头写明「部署到云效 Maven 仓库前必须执行」——
+# 不入库的话 clone 的人根本不知道模型从哪来。
+scripts/**/*.onnx
+scripts/**/*.bin
+scripts/**/*.pt
 
 # Large model binaries — not for GitHub (100 MB file limit)
 *.onnx
