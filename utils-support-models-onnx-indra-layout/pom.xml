@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.chua</groupId>
+        <artifactId>utils-support-models-parent</artifactId>
+        <version>4.0.0.42</version>
+    </parent>
+    <artifactId>utils-support-models-onnx-indra-layout</artifactId>
+    <packaging>jar</packaging>
+    <description>datalab-to/indra 文档版面分析 ONNX 模型族（det.onnx LineNet 行检测 ~0.4MB + rec.onnx CTC 文字识别 ~5MB + order.onnx OrderNet 块分类/阅读顺序 ~3MB + script.onnx 语种分类 ~0.2MB + rec_cjk.onnx 中日韩识别 ~10MB + meta.json 词表/配置）</description>
+    <build>
+        <resources>
+            <resource>
+                <directory>src/main/resources</directory>
+                <filtering>false</filtering>
+            </resource>
+        </resources>
+    </build>
+</project>
