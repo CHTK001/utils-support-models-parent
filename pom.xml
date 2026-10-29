@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.chua</groupId>
     <artifactId>utils-support-models-parent</artifactId>
-    <version>4.0.0.42</version>
+    <version>4.0.0.43</version>
     <packaging>pom</packaging>
     <description>预编译 ONNX 模型库聚合项目，模型以 jar 形式发布到 GitHub Packages</description>
 

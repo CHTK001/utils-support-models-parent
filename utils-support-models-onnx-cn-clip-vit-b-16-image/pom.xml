@@ -6,7 +6,7 @@
     <parent>
         <groupId>com.chua</groupId>
         <artifactId>utils-support-models-parent</artifactId>
-        <version>4.0.0.42</version>
+        <version>4.0.0.43</version>
     </parent>
     <artifactId>utils-support-models-onnx-cn-clip-vit-b-16-image</artifactId>
     <packaging>jar</packaging>
