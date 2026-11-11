@@ -56,6 +56,8 @@ site-builder/
 pmt_proxy/
 node_modules/.tmp/
 
+# 一次性脚本：colorize 模型 fp16/量化后处理（已完成，勿入库）
+utils-support-models-onnx-image-colorize/finish-colorize-*.ps1
 # H2 / SQLite 数据库文件及备份残留（禁止入库）
 *.mv.db
 *.trace.db
