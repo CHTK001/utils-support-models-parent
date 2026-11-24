@@ -164,6 +164,18 @@
         <module>utils-support-models-onnx-timestral-5m</module>
         <!-- ==================== 文档版面分析 ONNX 模型 ==================== -->
         <module>utils-support-models-onnx-indra-layout</module>
+        <!-- ==================== UniFace 人脸分析 ONNX 模型（yakhyo/uniface 生态） ==================== -->
+        <module>utils-support-models-onnx-uniface-facemesh</module>
+        <module>utils-support-models-onnx-uniface-pipnet</module>
+        <module>utils-support-models-onnx-uniface-gaze</module>
+        <module>utils-support-models-onnx-uniface-headpose</module>
+        <module>utils-support-models-onnx-uniface-parsing</module>
+        <module>utils-support-models-onnx-uniface-ppmatting</module>
+        <module>utils-support-models-onnx-uniface-attribnet</module>
+        <module>utils-support-models-onnx-uniface-ediffiqa</module>
+        <module>utils-support-models-onnx-uniface-minifasnet</module>
+        <module>utils-support-models-onnx-uniface-fairface</module>
+        <module>utils-support-models-onnx-uniface-affectnet</module>
     </modules>
 
     <repositories>
